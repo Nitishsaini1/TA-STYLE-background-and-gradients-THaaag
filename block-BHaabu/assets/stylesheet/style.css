@@ -97,14 +97,25 @@ h1{
     background-image: radial-gradient(crimson 60%, rgba(56, 22, 24, 1));
 }
 /* ---------------------------nsection-2---------------------------------------------------------- */
-.big-container-two{
-    width: 1300px;
-    height: 900px
+.box-container-one-image {
+    width: 80%;
+    height: 600px;
+    margin: 5% auto;
+    margin-top: 6.2%;
+  
 }
-.bigger{
+.item_center{
+    justify-content: center;
+    align-items: center;  
+    font-size: 25px;     
+    font-weight: 600;
+
+}
+.box4 {
     height: 100%;
     margin: 0 auto;
-    background: radial-gradient(ellipse at right bottom, rgba(248, 45, 0, 0.651) 10%, rgba(51, 53, 51, 0.52)), url( "../media/img/papers.co-mm93-la-beach-sea-nature-29-wallpaper.jpg");
+    background: radial-gradient(ellipse at right bottom, rgba(248, 45, 0, 0.651) , rgba(51, 53, 51, 0.52)), url( "../media/beach.png");
     background-position: 100% 100%;
-    border-radius: 20px
+    border-radius: 20px;
+
 }

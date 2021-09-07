@@ -1,0 +1,211 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+/* gneric styles */
+body{
+	max-width: 1130px;
+	margin: 0 auto;
+	background: linear-gradient(   rgb(18, 17, 37) 40%, rgb(19, 15, 46) 60%);
+    height: 100%;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+/* header */
+header{
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.left h1{
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+}
+.left strong{
+	color: rgb(190, 173, 173);
+}
+
+.right a{
+	color: rgb(190, 173, 173);
+    text-decoration: none;
+	font-size: 20px;
+	padding: 9px;
+
+}
+.right i{
+	color: #1ff5d9;
+	font-size: 26px;
+	vertical-align: bottom;
+}
+/* main section */
+
+/* --------------------------------------socil media------------------------------------------- */
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.uper{
+	background-color: skyblue;
+	height: 4px;
+}
+.uper-insta{
+	background-image: linear-gradient(to right, rgba(227, 215, 32), rgba(221, 13, 42));
+	height: 4px;
+}
+.uper-youtube{
+	background-color: rgb(236, 26, 26);
+	height: 4px;
+}
+
+.facebook
+{
+	text-align: center;
+
+	width: 25%;
+	height: 160px;
+	margin: 10px 20px 10px 0;
+  background-color: #343a4e;
+}
+.inside{
+	padding-top: 10px;
+}
+.inside i{
+      color: blue;
+	  font-size: 20px;
+	  padding: 0 7px;
+}
+.inside span{
+	color:rgb(190, 173, 173) ;
+}
+.redd i{
+	color: #fcb821;
+}
+.reddd i{
+	color: red;
+	border-radius: 50%;
+}
+.text{
+	font-size: 40px;
+	color: #fff;
+	font-weight: bolder;
+}
+.short  i {
+	color: #88c211;
+	vertical-align: bottom;
+}
+.short  a {
+	text-decoration: none;
+
+	color: #88c211;
+}
+.follower{
+	color:rgb(190, 173, 173) ;
+}
+.down-red a {
+    color: red;
+}
+.down-red i {
+	vertical-align: top;
+    color: red;
+}
+/* section 02 */
+.section-02{
+	max-width: 1270px;
+	margin: 0 auto;
+}
+.section-02 h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+}
+.four{
+	background-color: #343a4e;
+	width: 33%;
+	margin: 30px 10px;
+	padding: 18px ;
+}
+.box
+{
+	
+	display: flex;
+	justify-content: space-between;
+
+}
+.box h3{
+	color: rgb(190, 173, 173) ;
+}
+.box i{
+	color: darkcyan;
+	font-size: 26px;
+}
+
+
+.percent i{
+	   font-size: 15px;
+	 
+	   color: chartreuse;
+	   vertical-align: middle;
+	   padding: 10px;
+	   
+	}
+	.percent a{
+	vertical-align: middle;
+    text-decoration: none;
+	color: chartreuse;
+}
+.text-1{
+	font-size: 27px;
+	color: #fff;
+	font-weight: bolder;
+	
+}
